@@ -19,7 +19,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <!-- <div class="dropdown">
                             <img src="../../assets/icons/heart.png">
                             <div class="dropdown-menu wishlist-item">
                                 <table border="1">
@@ -41,7 +41,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="dropdown">
                             <img src="../../assets/icons/shopping_cart.png">
                             <div class="dropdown-menu cart-item">
@@ -140,7 +140,7 @@
                 <div class="new-product-section">
                     <div class="product-section-heading">
                         <h2>Our Coffee Items <img src="../../assets/icons/increase.png"></h2>
-                        <h3>Most selling Coffee Item for the month</h3>
+                        <!-- <h3>Most selling Coffee Item for the month</h3> -->
                     </div>
                     <div class="product-content">
                         <div class="product">
@@ -150,7 +150,7 @@
                             <div class="product-detail">
                                 <h2>Gray Color Men's Watch</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.4500/-</p>
+                                <p>BDT 400/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -160,7 +160,7 @@
                             <div class="product-detail">
                                 <h2>Black Men's Watch</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.4000/-</p>
+                                <p>BDT 400/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -170,7 +170,7 @@
                             <div class="product-detail">
                                 <h2>Nick Black Sneakers</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.3200/-</p>
+                                <p>BDT 320/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -180,7 +180,7 @@
                             <div class="product-detail">
                                 <h2>Wood Frame Sun Glass</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.1200/-</p>
+                                <p>BDT 120/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -190,7 +190,7 @@
                             <div class="product-detail">
                                 <h2>Leather Hand Bag</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.3800/-</p>
+                                <p>BDT 380/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -200,7 +200,7 @@
                             <div class="product-detail">
                                 <h2>Brown Leather Hand Bag</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.5200/-</p>
+                                <p>BDT 520/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -210,7 +210,7 @@
                             <div class="product-detail">
                                 <h2>Leather Hand Bag</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.3800/-</p>
+                                <p>BDT 380/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -220,7 +220,7 @@
                             <div class="product-detail">
                                 <h2>Men's Sneaker</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Rs.3500/-</p>
+                                <p>BDT 350/-</p>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                                 <h3>Our Top Coffe Item</h3>
                                 <h2>Chocolate Marshmallows</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Tk.1230/-</p>
+                                <p>BDT 120/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -250,7 +250,7 @@
                                 <h3>Our Top Coffe Item</h3>
                                 <h2>Oat Milk Latte</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Tk.950/-</p>
+                                <p>BDT 450/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -261,7 +261,7 @@
                                 <h3>Our Top Coffe Item</h3>
                                 <h2>Chocolate Cappuccino</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Tk.850/-</p>
+                                <p>BDT 450/-</p>
                             </div>
                         </div>
                         <div class="product">
@@ -272,7 +272,7 @@
                                 <h3>Our Top Coffe Item</h3>
                                 <h2>Americano Starbucks</h2>
                                 <a href="#">Add to Cart</a>
-                                <p>Tk.890/-</p>
+                                <p>BDT 390/-</p>
                             </div>
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="widget">
+                    <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Information</h3>
                         </div>
@@ -307,7 +307,7 @@
                                 <li><a href="checkout.html">Checkout</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="widget">
                         <div class="widget-heading">
                             <h3>Follow us</h3>
@@ -340,11 +340,11 @@
                     <div class="copyright-text">
                         <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
                     </div>
-                    <div class="payment-mode">
+                    <!-- <div class="payment-mode">
                         <img src="../../assets/icons/paper_money.png">
                         <img src="../../assets/icons/visa.png">
                         <img src="../../assets/icons/mastercard.png">
-                    </div>
+                    </div> -->
                 </div> <!-- Footer Bar -->
             </div>
         </footer> <!-- Footer Area -->
@@ -393,10 +393,10 @@ export default {
     width: 100%;
 }
 
-.dropdown img {
+/* .dropdown img {
     vertical-align: middle;
     width: 48%;
-}
+} */
 h2 img{
     width:4%;
 }
@@ -408,6 +408,20 @@ h2 img{
 }
 .payment-mode {
     margin-right: -110%;
+}
+.dropdown img {
+    vertical-align: middle;
+    width: 68%;
+    margin-left: -500%;
+}
+footer .footer-bar .copyright-text p {
+    color: #fbfbfb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+footer {
+    height: 300px;
+    background-color: #3f2618;
 }
 </style>
 	

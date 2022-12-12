@@ -98,7 +98,7 @@ hr {
 /* Header Styling */
 header {
   height: 200px;
-  background-color: var(--khaki);
+  background-color: #592e16;
 }
 
 header .brand {
@@ -119,10 +119,10 @@ header .logo a {
 }
 
 header .logo img {
-  margin-left: -17%;
-  height: 50%;
-  width: 130%;
-  margin-top: -7%;
+  margin-left: -23%;
+  height: 0%;
+  width: 166%;
+  margin-top: -25%;
 }
 
 header .logo p.big-logo {
@@ -241,7 +241,7 @@ header .menu ul li a {
   text-transform: uppercase;
   margin-bottom: 2px;
   border-bottom: 1px solid transparent;
-  color: #f04949;
+  color: #fefcfc;
   font-weight: bold;
   transition: 0.5s;
 }
@@ -269,7 +269,7 @@ header .form-group input {
   border-radius: 30px;
   outline: 0;
   padding: 5px 8px;
-  margin-top: -20px;
+  margin-top: -100px;
 }
 
 header .form-group img {
@@ -278,18 +278,21 @@ header .form-group img {
   top: -19px;
   cursor: pointer;
   width: 9%;
-  margin-right: -8px;
+  margin-top: -27%;
+  margin-right: -16px;
 }
 
 main {
   height: auto;
-  background-color: var(--white);
-  padding: 30px;
-  margin-top: 0px;
-  margin-bottom: -40px;
-  box-shadow: 0 0 2px #808080;
-  position: relative;
-  z-index: 100;
+    width: 150%;
+    margin-left: -25%;
+    background-color: var(--white);
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: -40px;
+    box-shadow: 0 0 2px #808080;
+    position: relative;
+    z-index: 100;
 }
 
 main .slider {
@@ -473,7 +476,7 @@ main .collection .women-collection h2 {
 
 footer {
   height: 350px;
-  background-color: var(--khaki);
+  background-color: #3c271b;
 }
 
 footer .footer-widget {
@@ -497,6 +500,7 @@ footer .footer-widget .widget h3 {
   color: var(--white);
   letter-spacing: 1px;
   margin-bottom: 8px;
+  margin-top: -4%;
   border-bottom: 1px solid var(--white);
 }
 
@@ -570,7 +574,7 @@ footer .footer-bar {
 }
 
 footer .footer-bar .copyright-text p {
-  color: #c06464;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
