@@ -17,6 +17,7 @@ export default {
 :root {
   --khaki: #78330b;
   --khakiDark: #4a0505;
+  --lightAsh:#bab3ae;
   --darkStaleGray: #6d0a0a;
   --white: #FFFFFF;
   --blue: #1775F1;
@@ -98,7 +99,7 @@ hr {
 /* Header Styling */
 header {
   height: 200px;
-  background-color: #592e16;
+  background-color: #231c18;
 }
 
 header .brand {
@@ -143,11 +144,12 @@ header .logo p.small-logo {
 }
 
 header .shop-icon {
-  width: 90px;
+  width: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 5%;
+  margin-right: 18%;
+  margin-top: 8px;
 }
 
 header .shop-icon img {
@@ -160,7 +162,9 @@ header .dropdown {
 }
 
 header .dropdown:hover .dropdown-menu {
-  display: block;
+  display: inline-block;
+  margin-left: -30%;
+  
 }
 
 header .dropdown-menu {
@@ -197,7 +201,7 @@ header .wishlist-item {
 }
 
 header .cart-item {
-  min-width: 450px;
+  min-width: 360px;
 }
 
 header .center {
@@ -476,7 +480,8 @@ main .collection .women-collection h2 {
 
 footer {
   height: 350px;
-  background-color: #3c271b;
+  background-color: black;
+  margin-top: 3%;
 }
 
 footer .footer-widget {
@@ -667,7 +672,7 @@ main .account-page .account-detail input[type="submit"] {
 }
 
 main .account-page .account-detail input[type="submit"]:hover {
-  background-color: var(--darkStaleGray);
+  background-color: var(--lightAsh);
   color: var(--khaki);
 }
 

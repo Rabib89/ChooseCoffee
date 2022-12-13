@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="brand">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="/dashboard">
                             <img src="../../assets/icons/logo1.png">
                         </a>
                     </div> <!-- logo -->
@@ -13,12 +13,12 @@
                             <img src="../../assets/icons/account.png">
                             <div class="dropdown-menu">
                                 <ul>
-                                    <li><a href="account.html">My Account</a></li>
-                                    <li><a href="orders.html">My Orders</a></li>
+                                    <li><a href="/account">My Account</a></li>
+                                    <li><a href="/orders">My Orders</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <!-- <div class="dropdown">
                             <img src="../../assets/icons/heart.png">
                             <div class="dropdown-menu wishlist-item">
                                 <table border="1">
@@ -40,7 +40,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="dropdown">
                             <img src="../../assets/icons/shopping_cart.png">
                             <div class="dropdown-menu cart-item">
@@ -54,7 +54,7 @@
                                             <th class="center">Amount</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <!-- <tbody>
                                         <tr>
                                             <td><img src="../../assets/product/Americano-Starbucks.jpg"></td>
                                             <td>product name</td>
@@ -69,7 +69,7 @@
                                             <td class="center">2</td>
                                             <td class="center">3000</td>
                                         </tr>
-                                    </tbody>
+                                    </tbody> -->
                                 </table>
                             </div>
                         </div>
@@ -79,10 +79,10 @@
                 <div class="menu-bar">
                     <div class="menu">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/dashboard">Home</a></li>
+                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="search-bar">
@@ -100,29 +100,10 @@
             <main>
                 <div class="about">
                     <h2 class="heading">About</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Odit quas animi, unde? Autem at
-                        pariatur quia
-                        laboriosam soluta, quibusdam voluptates incidunt quos eligendi architecto tenetur, amet,
-                        cupiditate in
-                        recusandae, sint quaerat sunt reiciendis voluptatum repudiandae similique odio molestiae
-                        laudantium.
-                        Fugit illum voluptatum esse facilis, omnis dolorum amet ut sed ea magnam vitae quaerat dolor.
-                        Cum
-                        dolorum ducimus similique nostrum laudantium pariatur, repudiandae, libero ratione id ut culpa
-                        ea
-                        consequuntur quia totam magnam quasi quis doloremque dolor quibusdam tenetur asperiores
-                        reiciendis!
-                        Cupiditate illum, praesentium facere quibusdam minima facilis quam voluptatem, in vel tenetur
-                        dolores
-                        repellat assumenda ducimus quas distinctio sequi ab numquam sunt laudantium voluptatibus modi
-                        dolor at
-                        nulla. Amet accusamus officiis itaque reiciendis architecto repellat, suscipit? Modi distinctio
-                        rerum
-                        voluptatum, natus, ad repellendus corporis adipisci veritatis aliquam, commodi sed non
-                        recusandae
-                        nesciunt facere mollitia optio, ipsa eligendi minus sequi amet? Officiis distinctio mollitia,
-                        laborum
-                        beatae deleniti sint, ipsa soluta similique?</p>
+                    <p>Our journey was inspired from the growing coffee culture in Dhaka. 
+                    We support the growth of coffee culture partnering with other cafés and provide opportunities for working students to gather valuable work experience. 
+                    Our vision is to make our customers experience our quality brew and create special memories. 
+                    We value our customers and want to make sure that when you enter our cafes you become part of ChooseCoffee</p>
                 </div>
             </main> <!-- Main Area -->
         </div>
@@ -142,7 +123,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="widget">
+                    <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Information</h3>
                         </div>
@@ -154,7 +135,7 @@
                                 <li><a href="checkout.html">Checkout</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="widget">
                         <div class="widget-heading">
                             <h3>Follow us</h3>
@@ -184,15 +165,17 @@
                     </div>
                 </div> <!-- Footer Widget -->
                 <div class="footer-bar">
-                    <div class="copyright-text">
-                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
-                    </div>
-                    <div class="payment-mode">
+                   
+
+                    <!-- <div class="payment-mode">
                         <img src="../../assets/icons/paper_money.png">
                         <img src="../../assets/icons/visa.png">
                         <img src="../../assets/icons/mastercard.png">
-                    </div>
+                    </div> -->
                 </div> <!-- Footer Bar -->
+                <div class="copyright-text">
+                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
+                    </div>
             </div>
         </footer> <!-- Footer Area -->
     </div>
@@ -237,5 +220,59 @@ h2 img {
 main {
     width: 70%;
     margin-left: 15%;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+/* .dropdown img {
+    vertical-align: middle;
+    width: 48%;
+} */
+h2 img{
+    width:4%;
+}
+.subscribe .form-group img{
+    width: 9%;
+}
+.payment-mode img{
+    width: 3%;
+}
+.payment-mode {
+    margin-right: -110%;
+}
+ .dropdown img {
+    vertical-align: middle;
+    width: 68%;
+    /* margin-left: 175%; */
+} 
+footer .copyright-text p {
+    color: #fbfbfb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 270px;
+}
+footer {
+    height: 300px;
+    background-color: #0e0906;
+}
+.container h1{
+    margin-left: 38%;
+    color: white;
+    font-size: 190%;
+
+}
+header .dropdown:hover .dropdown-menu {
+    display: inline-block;
+    margin-left: -50%;
+}
+footer {
+  margin-top: 15%;
 }
 </style>

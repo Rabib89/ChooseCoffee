@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="brand">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="/dashboard">
                             <img src="../../assets/icons/logo1.png">
                         </a>
                     </div> <!-- logo -->
@@ -14,12 +14,12 @@
                             <img src="../../assets/icons/account.png">
                             <div class="dropdown-menu">
                                 <ul>
-                                    <li><a href="account.html">My Account</a></li>
-                                    <li><a href="orders.html">My Orders</a></li>
+                                    <li><a href="/account">My Account</a></li>
+                                    <li><a href="/orders">My Orders</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <!-- <div class="dropdown">
                             <img src="../../assets/icons/heart.png">
                             <div class="dropdown-menu wishlist-item">
                                 <table border="1">
@@ -41,7 +41,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="dropdown">
                             <img src="../../assets/icons/shopping_cart.png">
                             <div class="dropdown-menu cart-item">
@@ -55,7 +55,7 @@
                                             <th class="center">Amount</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <!-- <tbody>
                                         <tr>
                                             <td><img src="../../assets/product/Americano-Starbucks.jpg"></td>
                                             <td>product name</td>
@@ -70,7 +70,7 @@
                                             <td class="center">2</td>
                                             <td class="center">3000</td>
                                         </tr>
-                                    </tbody>
+                                    </tbody> -->
                                 </table>
                             </div>
                         </div>
@@ -80,10 +80,10 @@
                 <div class="menu-bar">
                     <div class="menu">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/dashboard">Home</a></li>
+                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="search-bar">
@@ -110,9 +110,9 @@
                 <div class="account-page">
                     <div class="profile">
                         <div class="profile-img">
-                            <img src="../../assets/product/Americano-Starbucks.jpg">
-                            <h2>John Doe</h2>
-                            <p>john_doe@mail.com</p>
+                            <img src="../../assets/image/Rabib.jpg"> 
+                            <h2>Shahnoor Rabib</h2>
+                            <p>shahnoorrabib89@mail.com</p>
                         </div>
                         <ul>
                             <li><a href="account.html" class="active">Account <span>></span></a></li>
@@ -128,11 +128,11 @@
                                 <div class="form-inline">
                                     <div class="form-group">
                                         <label>First Name</label>
-                                        <input type="text" id="fname" name="fname" value="John">
+                                        <input type="text" id="fname" name="fname" value=" ">
                                     </div>
                                     <div class="form-group">
                                         <label>Last Name</label>
-                                        <input type="text" id="lname" name="lname" value="Doe">
+                                        <input type="text" id="lname" name="lname" value=" ">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -144,14 +144,14 @@
                                         <label>Country</label>
                                         <select id="country" name="country">
                                             <option selected>---Select a Country---</option>
-                                            <option value="pakistan">Pakistan</option>
+                                            <option value="Bangladesh">Bangladesh</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
                                         <label>City</label>
                                         <select id="city" name="city">
                                             <option selected>---Select a City---</option>
-                                            <option value="karachi">Karachi</option>
+                                            <option value="Dhaka">Dhaka</option>
                                         </select>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="widget">
+                    <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Information</h3>
                         </div>
@@ -210,7 +210,7 @@
                                 <li><a href="checkout.html">Checkout</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="widget">
                         <div class="widget-heading">
                             <h3>Follow us</h3>
@@ -240,15 +240,17 @@
                     </div>
                 </div> <!-- Footer Widget -->
                 <div class="footer-bar">
-                    <div class="copyright-text">
-                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
-                    </div>
-                    <div class="payment-mode">
+                   
+
+                    <!-- <div class="payment-mode">
                         <img src="../../assets/icons/paper_money.png">
                         <img src="../../assets/icons/visa.png">
                         <img src="../../assets/icons/mastercard.png">
-                    </div>
+                    </div> -->
                 </div> <!-- Footer Bar -->
+                <div class="copyright-text">
+                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
+                    </div>
             </div>
         </footer> <!-- Footer Area -->
 
@@ -437,6 +439,64 @@ main form.checkout-form label {
     margin-bottom: 6px;
 }
 
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+/* .dropdown img {
+    vertical-align: middle;
+    width: 48%;
+} */
+h2 img{
+    width:4%;
+}
+.subscribe .form-group img{
+    width: 9%;
+}
+.payment-mode img{
+    width: 3%;
+}
+.payment-mode {
+    margin-right: -110%;
+}
+ .dropdown img {
+    vertical-align: middle;
+    width: 68%;
+    /* margin-left: 175%; */
+} 
+footer .copyright-text p {
+    color: #fbfbfb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 270px;
+}
+footer {
+    height: 300px;
+    background-color: #0f0b08;
+}
+.container h1{
+    margin-left: 38%;
+    color: white;
+    font-size: 190%;
+
+}
+header .dropdown:hover .dropdown-menu {
+    display: inline-block;
+    margin-left: -50%;
+}
+main .account-page .account-detail input[type="submit"] {
+  background-color: var(--lightAsh);
+  color: var(--khaki);
+}
+main .account-page .account-detail input[type="submit"]:hover {
+  background-color: var(--main-text);
+  color: white;
+}
 
 </style>
 	

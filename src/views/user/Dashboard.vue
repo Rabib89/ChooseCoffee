@@ -1,11 +1,14 @@
 <template>
     <div id="dashboard">
+        <div class="container">
+            <h1>We Are Now at Your Town</h1>
+            </div>
 
         <header>
             <div class="container">
                 <div class="brand">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="/dashboard">
                             <img src="../../assets/icons/logo1.png">
                         </a>
                     </div> <!-- logo -->
@@ -14,8 +17,8 @@
                             <img src="../../assets/icons/account.png">
                             <div class="dropdown-menu">
                                 <ul>
-                                    <li><a href="account.html">My Account</a></li>
-                                    <li><a href="orders.html">My Orders</a></li>
+                                    <li><a href="/account">My Account</a></li>
+                                    <li><a href="/orders">My Orders</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,7 +58,7 @@
                                             <th class="center">Amount</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <!-- <tbody>
                                         <tr>
                                             <td><img src="../../assets/product/Americano-Starbucks.jpg"></td>
                                             <td>product name</td>
@@ -70,7 +73,7 @@
                                             <td class="center">2</td>
                                             <td class="center">3000</td>
                                         </tr>
-                                    </tbody>
+                                    </tbody> -->
                                 </table>
                             </div>
                         </div>
@@ -80,10 +83,10 @@
                 <div class="menu-bar">
                     <div class="menu">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/dashboard">Home</a></li>
+                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="search-bar">
@@ -337,15 +340,17 @@
                     </div>
                 </div> <!-- Footer Widget -->
                 <div class="footer-bar">
-                    <div class="copyright-text">
-                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
-                    </div>
+                   
+
                     <!-- <div class="payment-mode">
                         <img src="../../assets/icons/paper_money.png">
                         <img src="../../assets/icons/visa.png">
                         <img src="../../assets/icons/mastercard.png">
                     </div> -->
                 </div> <!-- Footer Bar -->
+                <div class="copyright-text">
+                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
+                    </div>
             </div>
         </footer> <!-- Footer Area -->
         
@@ -409,19 +414,30 @@ h2 img{
 .payment-mode {
     margin-right: -110%;
 }
-.dropdown img {
+ .dropdown img {
     vertical-align: middle;
     width: 68%;
-    margin-left: -500%;
-}
-footer .footer-bar .copyright-text p {
+    /* margin-left: 175%; */
+} 
+footer .copyright-text p {
     color: #fbfbfb;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin-left: 270px;
 }
 footer {
     height: 300px;
-    background-color: #3f2618;
+    background-color: #1b110b;
+}
+.container h1{
+    margin-left: 38%;
+    color: white;
+    font-size: 190%;
+
+}
+header .dropdown:hover .dropdown-menu {
+    display: inline-block;
+    margin-left: -50%;
 }
 </style>
 	
