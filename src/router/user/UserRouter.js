@@ -2,6 +2,7 @@ import Dashboard from '../../views/user/Dashboard.vue';
 import About from '../../views/user/About.vue';
 import Account from '../../views/user/Account.vue';
 import Cart from '../../views/user/Cart.vue'
+import Contact from '../../views/user/Contact.vue'
 
 export default [
     {
@@ -24,6 +25,12 @@ export default [
         path: '/cart',
         name: 'ProductCart',
         component: Cart,
-    }
+    },
+    {
+        path: '/contact',
+        name: 'ContactWithUs',
+        component: Contact,
+        
+    },
 
 ]

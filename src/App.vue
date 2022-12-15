@@ -1706,4 +1706,14 @@ main .account-page .account-detail table td {
   text-align: center;
   border: 1px solid #eee;
 }
+
+main .contact form input[type="submit"] {
+	background-color: var(--khaki);
+	border: 1px solid transparent;
+	color: var(--darkStaleGray);
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.5s;
+	display: inline;
+}
 </style>
