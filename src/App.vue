@@ -479,7 +479,7 @@ main .collection .women-collection h2 {
 } */
 
 footer {
-  height: 350px;
+  height: 240px;
   background-color: black;
   margin-top: 3%;
 }

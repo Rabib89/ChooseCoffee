@@ -285,7 +285,11 @@
         <footer>
             <div class="container2">
                 <div class="footer-widget">
-                    <div class="widget">
+                    <div class="coffee">
+                         <img src="../../assets/icons/logo2.png">
+                         <p>The Best Online Cafe In Bangladesh!</p>
+                    </div>
+                    <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Important Link</h3>
                         </div>
@@ -297,7 +301,7 @@
                                 <li><a href="terms.html">Terms & Conditions</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Information</h3>
@@ -311,7 +315,7 @@
                             </ul>
                         </div>
                     </div> -->
-                    <div class="widget">
+                    <!-- <div class="widget">
                         <div class="widget-heading">
                             <h3>Follow us</h3>
                         </div>
@@ -337,9 +341,9 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div> <!-- Footer Widget -->
-                <div class="footer-bar">
+                <!-- <div class="footer-bar"> -->
                    
 
                     <!-- <div class="payment-mode">
@@ -347,12 +351,21 @@
                         <img src="../../assets/icons/visa.png">
                         <img src="../../assets/icons/mastercard.png">
                     </div> -->
-                </div> <!-- Footer Bar -->
-                <div class="copyright-text">
-                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
-                    </div>
+                <!-- </div> -->
+                 <!-- Footer Bar -->
+
+
             </div>
         </footer> <!-- Footer Area -->
+
+
+        <div class="container4">
+                    <div class="copyright-text">
+                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
+                    </div>
+
+
+                </div>
         
 
     </div>
@@ -419,15 +432,20 @@ h2 img{
     width: 68%;
     /* margin-left: 175%; */
 } 
-footer .copyright-text p {
+.container4 .copyright-text {
     color: #fbfbfb;
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-left: 270px;
+    margin-left: 270px; */
+    display: flex;
+    margin-top: 2%;
+    align-content: flex-start;
+    margin-bottom: 2%;
+    margin-left: 10%;
 }
 footer {
-    height: 300px;
-    background-color: #1b110b;
+    height: 220px;
+    background-image: linear-gradient(to bottom right, #3e7575, #b72a2a);
 }
 .container h1{
     margin-left: 38%;
@@ -439,6 +457,27 @@ header .dropdown:hover .dropdown-menu {
     display: inline-block;
     margin-left: -50%;
 }
+.container4{
+    height: 5%;
+    margin-top: 5%;
+} 
+.coffee img{
+    height: 11%;
+    margin-left: -6%;
+    margin-top: -3%;
+
+}
+.coffee p{
+    /* height: 11%; */
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: -4%;
+    margin-top: -2%;
+    color: #fbfbfb;
+
+}
+
 </style>
 	
 
