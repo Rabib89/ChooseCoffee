@@ -2,7 +2,7 @@
     <div id="dashboard">
         <div class="container">
             <h1>We Are Now at Your Town</h1>
-            </div>
+        </div>
 
         <header>
             <div class="container">
@@ -19,6 +19,7 @@
                                 <ul>
                                     <li><a href="/account">My Account</a></li>
                                     <li><a href="/orders">My Orders</a></li>
+                                    <li><a href="/login">Log Out</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -133,13 +134,13 @@
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
-        
+
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
                 </div> <!-- slider -->
-        
+
                 <div class="new-product-section">
                     <div class="product-section-heading">
                         <h2>Our Coffee Items <img src="../../assets/icons/increase.png"></h2>
@@ -284,90 +285,28 @@
         </div>
         <footer>
             <div class="container2">
-                <div class="footer-widget">
-                    <div class="coffee">
-                         <img src="../../assets/icons/logo2.png">
-                         <p>The Best Online Cafe In Bangladesh!</p>
+                <div class="coffee">
+                    <div class="item">
+                        <img src="../../assets/icons/logo2.png">
+                        <p>The Best Online Cafe In Bangladesh!</p>
                     </div>
-                    <!-- <div class="widget">
-                        <div class="widget-heading">
-                            <h3>Important Link</h3>
-                        </div>
-                        <div class="widget-content">
-                            <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="refund.html">Refund Policy</a></li>
-                                <li><a href="terms.html">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <!-- <div class="widget">
-                        <div class="widget-heading">
-                            <h3>Information</h3>
-                        </div>
-                        <div class="widget-content">
-                            <ul>
-                                <li><a href="account.html">My Account</a></li>
-                                <li><a href="orders.html">My Orders</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <!-- <div class="widget">
-                        <div class="widget-heading">
-                            <h3>Follow us</h3>
-                        </div>
-                        <div class="widget-content">
-                            <div class="follow">
-                                <ul>
-                                    <li><a href="#"><img src="../../assets/icons/facebook.png"></a></li>
-                                    <li><a href="#"><img src="../../assets/icons/twitter.png"></a></li>
-                                    <li><a href="#"><img src="../../assets/icons/instagram.png"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="widget-heading">
-                            <h3>Subscribe for Newsletter</h3>
-                        </div>
-                        <div class="widget-content">
-                            <div class="subscribe">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="subscribe" placeholder="Email">
-                                        <img src="../../assets/icons/paper_plane.png">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div> -->
-                </div> <!-- Footer Widget -->
-                <!-- <div class="footer-bar"> -->
-                   
-
-                    <!-- <div class="payment-mode">
-                        <img src="../../assets/icons/paper_money.png">
-                        <img src="../../assets/icons/visa.png">
-                        <img src="../../assets/icons/mastercard.png">
-                    </div> -->
-                <!-- </div> -->
-                 <!-- Footer Bar -->
-
-
+                </div>
             </div>
         </footer> <!-- Footer Area -->
 
 
         <div class="container4">
-                    <div class="copyright-text">
-                        <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
-                    </div>
-
-
+            <div class="ftext">
+                <div class="copyright-text">
+                    <p>Copryright @2022CHOOSECOFFEE - All Rights Reserved</p>
                 </div>
-        
+            </div>
 
+        </div>
+
+        <div class="container4">
+
+        </div>
     </div>
 </template>
 <script>
@@ -415,69 +354,89 @@ export default {
     vertical-align: middle;
     width: 48%;
 } */
-h2 img{
-    width:4%;
+h2 img {
+    width: 4%;
 }
-.subscribe .form-group img{
+
+.subscribe .form-group img {
     width: 9%;
 }
-.payment-mode img{
+
+.payment-mode img {
     width: 3%;
 }
+
 .payment-mode {
     margin-right: -110%;
 }
- .dropdown img {
+
+.dropdown img {
     vertical-align: middle;
     width: 68%;
     /* margin-left: 175%; */
-} 
+}
+
 .container4 .copyright-text {
     color: #fbfbfb;
     /* text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-left: 270px; */
-    display: flex;
+    /* display: flex; */
     margin-top: 2%;
-    align-content: flex-start;
+    /* align-content: flex-start; */
     margin-bottom: 2%;
     margin-left: 10%;
 }
+
 footer {
     height: 220px;
     background-image: linear-gradient(to bottom right, #3e7575, #b72a2a);
 }
-.container h1{
+
+.container h1 {
     margin-left: 38%;
     color: white;
     font-size: 190%;
 
 }
+
 header .dropdown:hover .dropdown-menu {
     display: inline-block;
     margin-left: -50%;
 }
-.container4{
-    height: 5%;
-    margin-top: 5%;
-} 
-.coffee img{
-    height: 11%;
-    margin-left: -6%;
-    margin-top: -3%;
 
+.container4 {
+    height: 5%;
+    /* margin-top: 5%; */
 }
-.coffee p{
+
+.coffee .item img {
+    height: 11%;
+    width: 24%;
+    margin-left: -20%;
+    margin-top: -3%;
+}
+
+.item p {
     /* height: 11%; */
     font-size: 14px;
     font-weight: bold;
     font-style: italic;
-    margin-left: -4%;
-    margin-top: -2%;
+    margin-left: -19%;
+    margin-top: -3%;
     color: #fbfbfb;
 
 }
 
-</style>
-	
+.cofee {
+    height: 10%;
+    width: 10%;
+}
 
+.ftext {
+    position: center;
+}
+.copyright-text p{
+    padding: 25px 0;
+}
+</style>

@@ -5,14 +5,14 @@ Vue.use(VueRouter);
 
 /*import router*/
 // import AdminRouter from "./admin/AdminRouter";
-// import AuthRouter from "./auth/AuthRouter";
+import AuthRouter from "./auth/AuthRouter";
 import UserRouter from "./user/UserRouter";
 
 /*route route-list*/
 
 const routes = [
     // ...AdminRouter,
-    // ...AuthRouter,
+    ...AuthRouter,
     ...UserRouter,
 ]
 
